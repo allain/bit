@@ -145,11 +145,11 @@ You can check your registered remotes with the `bit remote` command.s
 
 * You can also add a scope from another machine via ssh.
 
-`bit remote add ssh://user@server</path/to/scope> --global`
+`bit remote add ssh://user@server:</path/to/scope> --global`
 
 * Important note about ssh!
 
-`ssh://user@server</path/to/scope>` === `/path/to.scope`
+`ssh://user@server:</path/to/scope>` === `/path/to.scope`
 
 `ssh:///path/to/scope>` === `/path/to.scope`
 
